@@ -3,720 +3,349 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kokan NGO - Empowering communities through education, health, and sustainable development in the Konkan region." />
-  <meta name="keywords" content="Kokan NGO, education, health, community development, Konkan, Maharashtra" />
-  <meta name="author" content="Kokan NGO" />
-  <meta property="og:title" content="Kokan NGO - Empowering Communities" />
-  <meta property="og:description" content="Transforming lives through education, healthcare, and sustainable development." />
-  <meta property="og:type" content="website" />
-  <title>Kokan NGO - Empowering Communities</title>
-
+  <title>Sabka Malik Ek Pratishthan | Saiashraya</title>
+  <link rel="stylesheet" href="style.css" />
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap 5 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- AOS Animations -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
-  <!-- =================== NAVBAR =================== -->
-  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <div class="brand-logo">
-          <span class="logo-k">K</span>
-        </div>
-        <div>
-          <div class="brand-name">KOKAN</div>
-          <div class="brand-sub">NGO Foundation</div>
-        </div>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="toggler-icon"><i class="fas fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
-          <li class="nav-item"><a class="nav-link" href="#saksham">Saksham</a></li>
-          <li class="nav-item"><a class="nav-link" href="#footprints">Our Reach</a></li>
-          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-          <li class="nav-item ms-lg-3">
-            <a class="btn btn-donate" href="#donate">
-              <i class="fas fa-heart me-1"></i> Donate Now
-            </a>
-          </li>
-        </ul>
+  <!-- ===================== NAVBAR ===================== -->
+   <a href="#">
+  
+</a> 
       </div>
+      <ul class="nav-links" id="navLinks">
+        
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
-  <!-- =================== HERO BANNER =================== -->
-  <section class="hero-section" id="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-particles" id="particles"></div>
-    <div class="container hero-content">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-lg-7" data-aos="fade-up" data-aos-duration="1000">
-          <div class="hero-tag">🌿 Making a Difference Since 2005</div>
-          <h1 class="hero-title">
-            Transforming Lives<br>
-            <span class="hero-title-accent">Across Konkan</span>
-          </h1>
-          <p class="hero-desc">
-            We empower communities through education, healthcare, and sustainable development — building a resilient and self-sufficient Konkan region.
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <img src="./images/logo.png" alt="Logo" class="hero-logo-overlay" />
+    <ul class="nav-links-overlay">
+  <li><a href="#home" class="nav-link">Home</a></li>
+  <li><a href="#about" class="nav-link">About</a></li>
+  <li><a href="#services" class="nav-link">Services</a></li>
+  <li><a href="#donate" class="nav-link">Donate</a></li>
+  <li><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+    <a href="https://www.kokanngo.org/donation" target="_blank" class="btn btn-primary hero-donate-overlay">
+  <i class="fa fa-heart"></i> Donate Now
+</a>
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1692609659165-1ec4d8108c0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        class="hero-img"
+        loading="eager"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-up">Maharashtra, India</div>
+      <h1 class="hero-heading animate-fade-up delay-1">
+        Lighting Hope in<br /><span class="highlight">Every Child</span>
+      </h1>
+      <p class="hero-sub animate-fade-up delay-2">
+        Supporting orphan and underprivileged children with care, shelter, and education — guided by Sai's love.
+      </p>
+      <div class="hero-cta animate-fade-up delay-3">
+        <a href="https://www.kokanngo.org/donation" target="_blank" class="btn btn-primary">
+          <i class="fa fa-heart"></i> Donate Now
+        </a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="hero-stats animate-fade-up delay-4">
+        <div class="stat"><strong>500+</strong><span>Children Supported</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>10+</strong><span>Years of Service</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>100%</strong><span>Compassion Driven</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-arrow" aria-label="Scroll down">
+      <i class="fa fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-img-card">
+            <img
+              src="images/about.png"
+              alt="Children at NGO"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-badge-float">
+            <i class="fa fa-hands-holding-child"></i>
+            <span>Shelter & Care</span>
+          </div>
+        </div>
+        <div class="about-content reveal delay-1">
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title">Building a Safe Future <em>Together</em></h2>
+          <p class="about-text">
+            <strong>Sabka Malik Ek Pratishthan</strong>, operating as <strong>Saiashraya</strong>, is a charitable organization rooted in Maharashtra that believes every child deserves love, safety, and opportunity — regardless of their circumstances.
           </p>
-          <div class="hero-cta-group d-flex flex-wrap gap-3">
-            <a href="#programs" class="btn btn-hero-primary">
-              Explore Programs <i class="fas fa-arrow-right ms-2"></i>
-            </a>
-            <a href="#donate" class="btn btn-hero-secondary">
-              <i class="fas fa-heart me-2"></i> Donate & Help
-            </a>
-          </div>
-          <div class="hero-stats d-flex flex-wrap gap-4 mt-5">
-            <div class="hero-stat">
-              <span class="hero-stat-num">12K+</span>
-              <span class="hero-stat-label">Lives Touched</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-num">50+</span>
-              <span class="hero-stat-label">Villages</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-num">18</span>
-              <span class="hero-stat-label">Years Active</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 d-none d-lg-flex justify-content-center" data-aos="fade-left" data-aos-duration="1200">
-          <div class="hero-visual">
-            <div class="hero-card-float hero-card-1">
-              <i class="fas fa-graduation-cap"></i>
-              <span>Education</span>
-            </div>
-            <div class="hero-card-float hero-card-2">
-              <i class="fas fa-heartbeat"></i>
-              <span>Healthcare</span>
-            </div>
-            <div class="hero-card-float hero-card-3">
-              <i class="fas fa-seedling"></i>
-              <span>Sustainability</span>
-            </div>
-            <div class="hero-circle-big"></div>
-            <div class="hero-circle-small"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-scroll-hint">
-      <span>Scroll to explore</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
-
-  <!-- =================== FOCUS AREAS =================== -->
-  <section class="section-padding bg-light-cream" id="programs">
-    <div class="container">
-      <div class="section-header text-center" data-aos="fade-up">
-        <div class="section-tag">What We Do</div>
-        <h2 class="section-title">Our Focus <span class="text-accent">Areas</span></h2>
-        <p class="section-desc">Six pillars that guide our mission toward a better Konkan</p>
-      </div>
-      <div class="row g-4 mt-2">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="program-card">
-            <div class="program-icon" style="background: linear-gradient(135deg,#3a7bd5,#00d2ff)">
-              <i class="fas fa-book-open"></i>
-            </div>
-            <h4>Education</h4>
-            <p>Scholarships, digital learning centers, and skill-based education for underprivileged youth across rural Konkan.</p>
-            <a href="#" class="program-link">Learn more <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
-          <div class="program-card">
-            <div class="program-icon" style="background: linear-gradient(135deg,#f7971e,#ffd200)">
-              <i class="fas fa-hand-holding-heart"></i>
-            </div>
-            <h4>Women Empowerment</h4>
-            <p>Self-help groups, vocational training, and micro-finance support enabling women to become financially independent.</p>
-            <a href="#" class="program-link">Learn more <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="program-card">
-            <div class="program-icon" style="background: linear-gradient(135deg,#56ab2f,#a8e063)">
-              <i class="fas fa-heartbeat"></i>
-            </div>
-            <h4>Health & Nutrition</h4>
-            <p>Free medical camps, nutrition awareness, maternal care programs, and mobile health clinics for remote villages.</p>
-            <a href="#" class="program-link">Learn more <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
-          <div class="program-card">
-            <div class="program-icon" style="background: linear-gradient(135deg,#8e44ad,#d7a4f3)">
-              <i class="fas fa-leaf"></i>
-            </div>
-            <h4>Environment</h4>
-            <p>Tree plantation drives, coastal clean-ups, and promoting eco-friendly practices to protect Konkan's rich biodiversity.</p>
-            <a href="#" class="program-link">Learn more <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="program-card">
-            <div class="program-icon" style="background: linear-gradient(135deg,#e74c3c,#f39c12)">
-              <i class="fas fa-tractor"></i>
-            </div>
-            <h4>Livelihood</h4>
-            <p>Agricultural training, cooperative farming, and market linkages to increase farmers' incomes across the region.</p>
-            <a href="#" class="program-link">Learn more <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
-          <div class="program-card">
-            <div class="program-icon" style="background: linear-gradient(135deg,#1abc9c,#2ecc71)">
-              <i class="fas fa-water"></i>
-            </div>
-            <h4>Water & Sanitation</h4>
-            <p>Clean drinking water initiatives, sanitation infrastructure, and hygiene education for sustainable community health.</p>
-            <a href="#" class="program-link">Learn more <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- =================== SAKSHAM SECTION =================== -->
-  <section class="saksham-section section-padding" id="saksham">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6" data-aos="fade-right">
-          <div class="saksham-visual">
-            <div class="saksham-badge">Featured Program</div>
-            <div class="saksham-img-wrap">
-              <div class="saksham-img-placeholder">
-                <i class="fas fa-users"></i>
-                <span>Saksham in Action</span>
-              </div>
-              <div class="saksham-stat-bubble saksham-stat-1">
-                <strong>2,400+</strong><span>Youth Trained</span>
-              </div>
-              <div class="saksham-stat-bubble saksham-stat-2">
-                <strong>85%</strong><span>Employment Rate</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-left">
-          <div class="section-tag">Flagship Initiative</div>
-          <h2 class="section-title">The <span class="text-accent">Saksham</span> Program</h2>
-          <p class="text-muted mb-4">
-            Saksham — meaning "capable" — is our flagship youth skill development program, designed to bridge the gap between education and employment for rural youth in the Konkan region.
+          <p class="about-text">
+            We provide a nurturing home for orphans, abandoned children, and those from vulnerable backgrounds. Guided by the timeless wisdom of <em>Sabka Malik Ek</em> — "One God for All" — we work to restore dignity, instil values, and empower children to build a responsible, independent future.
           </p>
-          <div class="saksham-features">
-            <div class="saksham-feature">
-              <div class="sf-icon"><i class="fas fa-laptop-code"></i></div>
-              <div>
-                <h6>Digital Skills Training</h6>
-                <p>Industry-aligned tech curriculum with hands-on project experience.</p>
-              </div>
-            </div>
-            <div class="saksham-feature">
-              <div class="sf-icon"><i class="fas fa-briefcase"></i></div>
-              <div>
-                <h6>Placement Support</h6>
-                <p>Active corporate partnerships for direct job placement on program completion.</p>
-              </div>
-            </div>
-            <div class="saksham-feature">
-              <div class="sf-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-              <div>
-                <h6>Mentorship Network</h6>
-                <p>One-on-one mentoring from industry professionals and community leaders.</p>
-              </div>
-            </div>
+          <div class="about-pillars">
+            <div class="pillar"><i class="fa fa-shield-heart"></i><span>Safe Environment</span></div>
+            <div class="pillar"><i class="fa fa-book-open"></i><span>Value-Based Learning</span></div>
+            <div class="pillar"><i class="fa fa-child-reaching"></i><span>Holistic Development</span></div>
           </div>
-          <a href="#" class="btn btn-primary-custom mt-4">Know More About Saksham</a>
+          <a href="#services" class="btn btn-primary">Our Services</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- =================== OUR FOOTPRINTS =================== -->
-  <section class="footprints-section section-padding" id="footprints">
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services" id="services">
     <div class="container">
-      <div class="section-header text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Where We Work</div>
-        <h2 class="section-title">Our <span class="text-accent">Footprints</span></h2>
-        <p class="section-desc">Spreading impact across the Konkan coastline and beyond</p>
+      <div class="section-header reveal">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">How We <em>Help</em> Every Day</h2>
+        <p class="section-sub">Four pillars of care that transform a child's life from vulnerability to possibility.</p>
       </div>
-      <div class="row align-items-center g-4">
-        <div class="col-lg-6" data-aos="fade-right">
-          <div class="map-container">
-            <div class="map-placeholder">
-              <div class="map-pin pin-1" title="Ratnagiri"><i class="fas fa-map-marker-alt"></i><span>Ratnagiri</span></div>
-              <div class="map-pin pin-2" title="Sindhudurg"><i class="fas fa-map-marker-alt"></i><span>Sindhudurg</span></div>
-              <div class="map-pin pin-3" title="Raigad"><i class="fas fa-map-marker-alt"></i><span>Raigad</span></div>
-              <div class="map-pin pin-4" title="Thane"><i class="fas fa-map-marker-alt"></i><span>Thane</span></div>
-              <div class="map-overlay-text">
-                <i class="fas fa-globe-asia"></i>
-                <span>Konkan Region, Maharashtra</span>
-              </div>
-            </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon food">
+            <i class="fa fa-utensils"></i>
           </div>
+          <h3>Food Support</h3>
+          <p>Nutritious, wholesome meals served daily to ensure every child grows healthy and strong. No child sleeps hungry under our roof.</p>
+          <div class="card-footer-link"><a href="#donate">Support a Meal <i class="fa fa-arrow-right"></i></a></div>
         </div>
-        <div class="col-lg-6" data-aos="fade-left">
-          <div class="footprint-stats row g-3">
-            <div class="col-6">
-              <div class="fp-stat-card">
-                <i class="fas fa-map-marked-alt"></i>
-                <div class="fp-num" data-target="4">0</div>
-                <div class="fp-label">Districts Covered</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="fp-stat-card">
-                <i class="fas fa-city"></i>
-                <div class="fp-num" data-target="50">0</div>
-                <div class="fp-label">Villages Reached</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="fp-stat-card">
-                <i class="fas fa-users"></i>
-                <div class="fp-num" data-target="12000">0</div>
-                <div class="fp-label">Beneficiaries</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="fp-stat-card">
-                <i class="fas fa-handshake"></i>
-                <div class="fp-num" data-target="80">0</div>
-                <div class="fp-label">Partner Organizations</div>
-              </div>
-            </div>
+
+        <div class="service-card">
+  <div class="service-icon shelter">
+    <i class="fas fa-shield-heart"></i>
+  </div>
+
+  <h3>Shelter & Protection</h3>
+
+  <p>
+    A safe, clean, and loving residential facility that serves as a true home —
+    protecting children from exploitation and neglect.
+  </p>
+
+  <a href="#" class="service-link">Provide Shelter →</a>
+</div>
+
+        <div class="service-card reveal delay-2">
+          <div class="service-icon education">
+            <i class="fa fa-graduation-cap"></i>
           </div>
+          <h3>Education for Children</h3>
+          <p>Formal schooling, vocational skills, and value-based learning programmes that open doors to a bright, independent future.</p>
+          <div class="card-footer-link"><a href="#donate">Sponsor Education <i class="fa fa-arrow-right"></i></a></div>
         </div>
+
+        <div class="service-card reveal delay-3">
+          <div class="service-icon medical">
+            <i class="fa fa-kit-medical"></i>
+          </div>
+          <h3>Medical Care</h3>
+          <p>Regular health check-ups, vaccinations, and access to medical treatment ensuring every child remains healthy and cared for.</p>
+          <div class="card-footer-link"><a href="#donate">Heal a Child <i class="fa fa-arrow-right"></i></a></div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- =================== SDG SECTION =================== -->
-  <section class="sdg-section section-padding bg-light-cream" id="sdg">
+  <!-- ===================== IMPACT BANNER ===================== -->
+  <section class="impact-banner">
+    <div class="impact-overlay"></div>
+    <img
+      src="https://images.unsplash.com/photo-1464983953574-0892a716854b?w=1400&q=80"
+      alt="Children learning India"
+      class="impact-bg-img"
+      loading="lazy"
+    />
+    <div class="container impact-content reveal">
+      <div class="impact-stat"><span class="impact-num">500<sup>+</sup></span><span>Children Helped</span></div>
+      <div class="impact-stat"><span class="impact-num">10<sup>+</sup></span><span>Years Active</span></div>
+      <div class="impact-stat"><span class="impact-num">3</span><span>Districts Reached</span></div>
+      <div class="impact-stat"><span class="impact-num">∞</span><span>Love Given</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== DONATE ===================== -->
+  <section class="donate" id="donate">
     <div class="container">
-      <div class="section-header text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Global Alignment</div>
-        <h2 class="section-title">Sustainable Development <span class="text-accent">Goals</span></h2>
-        <p class="section-desc">Our work is aligned with the United Nations' 2030 Agenda</p>
-      </div>
-      <div class="sdg-grid" data-aos="fade-up" data-aos-delay="100">
-        <div class="sdg-item" style="--sdg-color:#e5243b" title="No Poverty">
-          <span class="sdg-num">1</span>
-          <span class="sdg-label">No Poverty</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#dda63a" title="Zero Hunger">
-          <span class="sdg-num">2</span>
-          <span class="sdg-label">Zero Hunger</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#4c9f38" title="Good Health">
-          <span class="sdg-num">3</span>
-          <span class="sdg-label">Good Health</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#c5192d" title="Quality Education">
-          <span class="sdg-num">4</span>
-          <span class="sdg-label">Quality Education</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#ff3a21" title="Gender Equality">
-          <span class="sdg-num">5</span>
-          <span class="sdg-label">Gender Equality</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#26bde2" title="Clean Water">
-          <span class="sdg-num">6</span>
-          <span class="sdg-label">Clean Water</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#fcc30b" title="Decent Work">
-          <span class="sdg-num">8</span>
-          <span class="sdg-label">Decent Work</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#a21942" title="Reduced Inequality">
-          <span class="sdg-num">10</span>
-          <span class="sdg-label">Reduced Inequality</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#3f7e44" title="Life on Land">
-          <span class="sdg-num">15</span>
-          <span class="sdg-label">Life on Land</span>
-        </div>
-        <div class="sdg-item" style="--sdg-color:#19486a" title="Partnerships">
-          <span class="sdg-num">17</span>
-          <span class="sdg-label">Partnerships</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- =================== IMPACT STATISTICS =================== -->
-  <section class="impact-section section-padding" id="impact">
-    <div class="container">
-      <div class="section-header text-center mb-5" data-aos="fade-up">
-        <div class="section-tag" style="color:#fff;border-color:rgba(255,255,255,0.3)">Our Impact</div>
-        <h2 class="section-title" style="color:#fff">Numbers That <span style="color:#f7d060">Speak</span></h2>
-      </div>
-      <div class="row g-4 text-center">
-        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
-          <div class="impact-counter">
-            <div class="ic-icon"><i class="fas fa-child"></i></div>
-            <div class="ic-num counter" data-target="12000">0</div>
-            <div class="ic-label">Children Educated</div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-          <div class="impact-counter">
-            <div class="ic-icon"><i class="fas fa-hospital"></i></div>
-            <div class="ic-num counter" data-target="3500">0</div>
-            <div class="ic-label">Medical Beneficiaries</div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
-          <div class="impact-counter">
-            <div class="ic-icon"><i class="fas fa-tree"></i></div>
-            <div class="ic-num counter" data-target="25000">0</div>
-            <div class="ic-label">Trees Planted</div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
-          <div class="impact-counter">
-            <div class="ic-icon"><i class="fas fa-female"></i></div>
-            <div class="ic-num counter" data-target="4200">0</div>
-            <div class="ic-label">Women Empowered</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- =================== TESTIMONIALS =================== -->
-  <section class="testimonials-section section-padding" id="testimonials">
-    <div class="container">
-      <div class="section-header text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Stories of Change</div>
-        <h2 class="section-title">Voices from the <span class="text-accent">Community</span></h2>
-      </div>
-      <div class="testimonial-slider" id="testimonialSlider" data-aos="fade-up" data-aos-delay="100">
-        <div class="testimonial-track" id="testimonialTrack">
-          <div class="testimonial-card">
-            <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
-            <p>"The Saksham program changed my life completely. I went from struggling to find work to now running my own digital marketing business in Ratnagiri."</p>
-            <div class="testi-author">
-              <div class="testi-avatar">PD</div>
-              <div>
-                <strong>Priya Dalvi</strong>
-                <span>Saksham Graduate, Ratnagiri</span>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
-            <p>"Thanks to the free medical camp organized by Kokan NGO, my father received timely treatment. We are forever grateful for their presence in our village."</p>
-            <div class="testi-author">
-              <div class="testi-avatar">RS</div>
-              <div>
-                <strong>Rajan Sawant</strong>
-                <span>Beneficiary, Sindhudurg</span>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
-            <p>"Our self-help group, supported by Kokan NGO, now generates income for 15 women in our village. We feel truly empowered and independent."</p>
-            <div class="testi-author">
-              <div class="testi-avatar">SK</div>
-              <div>
-                <strong>Sunita Kambli</strong>
-                <span>SHG Leader, Raigad</span>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
-            <p>"The scholarship I received allowed me to complete engineering without financial burden. Now I work in Pune and sponsor a child through the NGO."</p>
-            <div class="testi-author">
-              <div class="testi-avatar">AM</div>
-              <div>
-                <strong>Akash Mhatre</strong>
-                <span>Engineer & Donor, Pune</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slider-controls">
-          <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
-          <div class="slider-dots" id="sliderDots"></div>
-          <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- =================== LATEST EVENTS =================== -->
-  <section class="events-section section-padding bg-light-cream" id="events">
-    <div class="container">
-      <div class="section-header text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Stay Updated</div>
-        <h2 class="section-title">Latest <span class="text-accent">Events</span></h2>
-        <p class="section-desc">Join us and be part of the change</p>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="event-card">
-            <div class="event-date-badge">
-              <span class="ed-day">15</span>
-              <span class="ed-month">MAY</span>
-            </div>
-            <div class="event-content">
-              <span class="event-tag">Health Camp</span>
-              <h5>Free Medical & Eye Checkup Camp</h5>
-              <p>Comprehensive health screenings including blood pressure, diabetes, and eye checkup for villagers in Devrukh.</p>
-              <div class="event-meta">
-                <span><i class="fas fa-map-marker-alt"></i> Devrukh, Ratnagiri</span>
-                <span><i class="fas fa-clock"></i> 9:00 AM - 4:00 PM</span>
-              </div>
-            </div>
-            <a href="#" class="btn btn-event">Register Now</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="event-card">
-            <div class="event-date-badge" style="background: var(--accent-green)">
-              <span class="ed-day">22</span>
-              <span class="ed-month">MAY</span>
-            </div>
-            <div class="event-content">
-              <span class="event-tag" style="color:var(--accent-green)">Environment</span>
-              <h5>Coastal Clean-Up Drive 2025</h5>
-              <p>Join thousands of volunteers for our annual coastal clean-up drive along the Konkan shoreline. Every hand counts!</p>
-              <div class="event-meta">
-                <span><i class="fas fa-map-marker-alt"></i> Ganpatipule Beach</span>
-                <span><i class="fas fa-clock"></i> 6:30 AM - 11:00 AM</span>
-              </div>
-            </div>
-            <a href="#" class="btn btn-event" style="border-color:var(--accent-green);color:var(--accent-green)">Register Now</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="event-card">
-            <div class="event-date-badge" style="background: #f7971e">
-              <span class="ed-day">05</span>
-              <span class="ed-month">JUN</span>
-            </div>
-            <div class="event-content">
-              <span class="event-tag" style="color:#f7971e">Workshop</span>
-              <h5>Women Entrepreneurship Summit</h5>
-              <p>A full-day summit featuring expert sessions, panel discussions, and networking for rural women entrepreneurs.</p>
-              <div class="event-meta">
-                <span><i class="fas fa-map-marker-alt"></i> Ratnagiri Town Hall</span>
-                <span><i class="fas fa-clock"></i> 10:00 AM - 6:00 PM</span>
-              </div>
-            </div>
-            <a href="#" class="btn btn-event" style="border-color:#f7971e;color:#f7971e">Register Now</a>
-          </div>
-        </div>
-      </div>
-      <div class="text-center mt-5" data-aos="fade-up">
-        <a href="#" class="btn btn-outline-custom">View All Events <i class="fas fa-arrow-right ms-2"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- =================== GALLERY =================== -->
-  <section class="gallery-section section-padding" id="gallery">
-    <div class="container">
-      <div class="section-header text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Moments</div>
-        <h2 class="section-title">Our <span class="text-accent">Gallery</span></h2>
-        <p class="section-desc">Glimpses of hope, change, and community</p>
-      </div>
-      <div class="gallery-filter mb-4 text-center" data-aos="fade-up">
-        <button class="gf-btn active" data-filter="all">All</button>
-        <button class="gf-btn" data-filter="education">Education</button>
-        <button class="gf-btn" data-filter="health">Health</button>
-        <button class="gf-btn" data-filter="environment">Environment</button>
-        <button class="gf-btn" data-filter="events">Events</button>
-      </div>
-      <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
-        <div class="gallery-item" data-category="education">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#667eea,#764ba2)">
-            <i class="fas fa-graduation-cap"></i><span>Education Program</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery-item gallery-item-wide" data-category="health">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#f093fb,#f5576c)">
-            <i class="fas fa-stethoscope"></i><span>Medical Camp</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery-item" data-category="environment">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">
-            <i class="fas fa-tree"></i><span>Tree Plantation</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery-item gallery-item-tall" data-category="events">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#43e97b,#38f9d7)">
-            <i class="fas fa-calendar-star"></i><span>Community Event</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery-item" data-category="education">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#fa709a,#fee140)">
-            <i class="fas fa-book"></i><span>Saksham Workshop</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery-item" data-category="environment">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#30cfd0,#667eea)">
-            <i class="fas fa-water"></i><span>Beach Cleanup</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery-item gallery-item-wide" data-category="health">
-          <div class="gallery-ph" style="background:linear-gradient(135deg,#a18cd1,#fbc2eb)">
-            <i class="fas fa-heartbeat"></i><span>Health Awareness</span>
-          </div>
-          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
-        </div>
-      </div>
-      <div class="text-center mt-5" data-aos="fade-up">
-        <a href="#" class="btn btn-outline-custom">View Full Gallery <i class="fas fa-images ms-2"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- =================== DONATE CTA =================== -->
-  <section class="donate-section" id="donate">
-    <div class="donate-overlay"></div>
-    <div class="container position-relative">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center" data-aos="zoom-in">
-          <div class="donate-icon"><i class="fas fa-hand-holding-heart"></i></div>
-          <h2>Be the Reason Someone <span>Smiles Today</span></h2>
-          <p>Your generous contribution directly funds education, healthcare, and livelihood programs for thousands of families across the Konkan region.</p>
-          <div class="donate-amounts d-flex flex-wrap gap-3 justify-content-center mb-4">
-            <button class="donate-amt-btn" data-amount="500">₹500</button>
-            <button class="donate-amt-btn" data-amount="1000">₹1,000</button>
-            <button class="donate-amt-btn active" data-amount="2500">₹2,500</button>
-            <button class="donate-amt-btn" data-amount="5000">₹5,000</button>
-            <button class="donate-amt-btn" data-amount="custom">Custom</button>
-          </div>
-          <a href="https://www.kokanngo.org/" target="_blank" class="btn btn-donate-cta">
-            <i class="fas fa-heart me-2"></i> Donate Now
+      <div class="donate-card reveal">
+        <div class="donate-left">
+          <span class="section-label light">Make a Difference</span>
+          <h2 class="donate-heading">Your Kindness Can<br/><em>Change a Life</em></h2>
+          <p class="donate-text">
+            A small act of giving today shapes a child's tomorrow. Every rupee you donate goes directly toward food, shelter, education, and medical care for our children.
+          </p>
+          <ul class="donate-list">
+            <li><i class="fa fa-circle-check"></i> ₹500 — Feeds a child for a week</li>
+            <li><i class="fa fa-circle-check"></i> ₹2,000 — Covers monthly medical care</li>
+            <li><i class="fa fa-circle-check"></i> ₹5,000 — Sponsors a child's education</li>
+            <li><i class="fa fa-circle-check"></i> ₹10,000 — Supports full monthly care</li>
+          </ul>
+          <a href="https://www.kokanngo.org/donation" target="_blank" class="btn btn-primary btn-large">
+            <i class="fa fa-heart"></i> Donate Now — Open Heart, Open Hand
           </a>
-          <p class="donate-note"><i class="fas fa-shield-alt me-1"></i> 100% Secure Payment · 80G Tax Exemption Available</p>
+        </div>
+        <div class="donate-right">
+          <img
+            src="images/donate.png"
+            alt="Children learning"
+            loading="lazy"
+          />
+          <div class="donate-quote">
+            <i class="fa fa-quote-left"></i>
+            "Sabka Malik Ek" — One God for All. Let us serve Him by serving His children.
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- =================== FOOTER =================== -->
-  <footer class="footer-section" id="footer">
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Connect With <em>Us</em></h2>
+        <p class="section-sub">Have questions or want to volunteer? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-location-dot"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Maharashtra, India</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <span>+91 94375 XXXXX</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <span>info@sabkamalikekngo.org</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-clock"></i></div>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Sat, 9:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <form class="contact-form reveal delay-1" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa fa-circle-check"></i> Thank you! We'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
     <div class="footer-top">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-4">
-            <div class="footer-brand d-flex align-items-center gap-2 mb-3">
-              <div class="brand-logo">
-                <span class="logo-k">K</span>
-              </div>
-              <div>
-                <div class="brand-name">KOKAN</div>
-                <div class="brand-sub" style="color:#aaa">NGO Foundation</div>
-              </div>
-            </div>
-            <p class="footer-about">Empowering communities through education, healthcare, and sustainable development across the Konkan region since 2005.</p>
-            <div class="footer-social">
-              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            </div>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-icon"></span>
+            <span>Sabka Malik Ek Pratishthan</span>
           </div>
-          <div class="col-6 col-lg-2">
-            <h6 class="footer-heading">Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#programs">Programs</a></li>
-              <li><a href="#saksham">Saksham</a></li>
-              <li><a href="#footprints">Our Reach</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-lg-2">
-            <h6 class="footer-heading">Get Involved</h6>
-            <ul class="footer-links">
-              <li><a href="#donate">Donate</a></li>
-              <li><a href="#">Volunteer</a></li>
-              <li><a href="#">Partner With Us</a></li>
-              <li><a href="#">Internships</a></li>
-              <li><a href="#">Fundraise</a></li>
-              <li><a href="#">Corporate CSR</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <h6 class="footer-heading">Contact & Newsletter</h6>
-            <ul class="footer-contact">
-              <li><i class="fas fa-map-marker-alt"></i> Ratnagiri, Maharashtra, India</li>
-              <li><i class="fas fa-phone"></i> +91 98765 43210</li>
-              <li><i class="fas fa-envelope"></i> info@kokanngo.org</li>
-            </ul>
-            <div class="newsletter-form mt-3">
-              <label class="footer-heading mb-2 d-block">Newsletter</label>
-              <div class="newsletter-input-group">
-                <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
-                <button type="button"><i class="fas fa-paper-plane"></i></button>
-              </div>
-            </div>
-          </div>
+          <p>Serving orphan and underprivileged children in Maharashtra with food, shelter, education, and medical care — in the spirit of Sai Baba's universal love.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Food Support</a></li>
+            <li><a href="#services">Shelter & Protection</a></li>
+            <li><a href="#services">Child Education</a></li>
+            <li><a href="#services">Medical Care</a></li>
+          </ul>
+        </div>
+        <div class="footer-donate">
+          <h4>Make an Impact</h4>
+          <p>Your donation transforms a child's future. Every rupee counts.</p>
+          <a href="https://www.kokanngo.org/donation" target="_blank" class="btn btn-primary">
+            <i class="fa fa-heart"></i> Donate Now
+          </a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
-        <p>© 2025 Kokan NGO Foundation. All rights reserved. Reg. No. 7389415</p>
-        <div class="footer-bottom-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">80G Certificate</a>
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2025 Sabka Malik Ek Pratishthan · Saiashraya. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
   </footer>
 
   <!-- Back to Top -->
-  <button class="back-to-top" id="backToTop" aria-label="Back to top">
-    <i class="fas fa-arrow-up"></i>
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fa fa-arrow-up"></i>
   </button>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <!-- Custom JS -->
-  <script src="js/main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
